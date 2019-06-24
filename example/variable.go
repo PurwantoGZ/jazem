@@ -10,7 +10,7 @@ func Variable(test string) {
 	var firstName string = "Purwanto"
 
 	var lastName string
-	lastName = Guguk(test)
+	lastName = test
 
 	fmt.Printf("Hallo %s %s ! \n", firstName, lastName)
 }
