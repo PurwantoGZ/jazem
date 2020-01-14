@@ -5,8 +5,8 @@ import "fmt"
 type student struct {
 	name  string
 	grade int
-}
 
+}
 // Getstruct is function for learn about struct in golang
 func Getstruct(test string) {
 	fmt.Printf(" belajar %s\n", test)
